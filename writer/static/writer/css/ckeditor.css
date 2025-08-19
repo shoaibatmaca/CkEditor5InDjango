@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: dark) {
+  .ck.ck-editor {
+    color: black;
+  }
+
+  /* this makes editor scrollable */
+  .ck-editor__editable {
+    min-height: 100px;
+    max-height: 100px;
+  }
+  /* this applies padding in the editor so list bullet and number will 
+    else it hides on screen */
+  .ck-editor__editable_inline {
+    padding: 0 30px !important;
+  }
+
+  :root {
+    --ck-border-radius: 4px;
+
+    --ck-font-size-base: 14px;
+  }
+}
